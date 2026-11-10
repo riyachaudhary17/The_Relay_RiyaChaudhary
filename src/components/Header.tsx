@@ -85,7 +85,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, rows })
               activeTab === 'code' ? 'text-indigo-400 font-semibold' : ''
             }`}
           >
-            Python Code
+            GitHub Artifacts
           </button>
         </nav>
 
@@ -109,7 +109,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, rows })
           { id: 'waterfall', label: 'Time Waterfall' },
           { id: 'report', label: '2-Page Report' },
           { id: 'library', label: 'Papers' },
-          { id: 'code', label: 'Python' }
+          { id: 'code', label: 'GitHub Artifacts' }
         ].map(t => (
           <button
             key={t.id}
