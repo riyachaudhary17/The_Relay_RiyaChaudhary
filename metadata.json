@@ -1,0 +1,6 @@
+{
+  "name": "The Relay - arXiv QA Pipeline & Load Benchmark Suite",
+  "description": "Production-grade research paper QA pipeline with 4-step reasoning, calibrated Groq stand-in, multi-scenario load testing, Table 1-3 analytics, and results.csv generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
